@@ -1,0 +1,279 @@
+body {
+    margin: 0px;
+    font-family: Nunito Sans, Arial;
+}
+
+body * {
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1256px;
+    margin: 0 auto;
+}  
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header {
+    background-color: #131313;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0px;
+    border: 1px solid transparent;
+    padding: 13px 33px;
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.phone {
+    color: #E3B873;
+}
+
+.button:hover {
+    background: none;
+    color: white;
+    border: 1px solid #FFFFFF;
+    box-shadow: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.header-navigation-item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-right: 47.09px;
+}
+
+a:hover {
+    color:#E3B873;
+}
+
+.logo {
+    color:#E3B873;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.image-1-1 {
+    background-color: rgb(199, 61, 61);
+    background-image: url(../Repair_project/images/hero.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.image-1-1::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.page-one {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 1;
+    padding-left: 21px;
+}
+
+.h1 {
+    color:#E3B873;
+}
+
+.content-text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.paragrahp-page-one {
+    font-size: 22px;
+    line-height: 36px;
+    padding-left: 21px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 21px;
+}
+
+.button-page-one {
+    width: 207px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-2 {
+    background: #131313;
+    height: 1074px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.button-page-two {
+    width: 207px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 17px;
+}
+
+.list-page-two {
+    display: flex;
+    list-style: none;
+    margin: 0px 16px;
+    padding-top: 107px;
+    justify-content: flex-end;
+    gap: 95px;
+}
+
+.list-page-two-item a {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.list-page-two-item :hover {
+    color:#E3B873;
+    text-decoration: none;
+    border-bottom: 1px #E3B873 solid;
+    padding-bottom: 5px;
+}
+
+.heading {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 9px;
+    margin-top: 51px;
+}
+
+.heading-text {
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+}
+
+.paragrahp-page-two {
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: 34px;
+    width: 72%;
+}
+
+.text-conditions {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.content-page-two {
+    display: grid;
+    grid-template-columns: repeat(15, 100px);
+    grid-template-rows: repeat(10, 100px);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.text-page-two {
+    grid-area: 1/1/3/6;
+}
+
+.image-2-1 {
+    background-color: rgb(199, 61, 61);
+    background-image: url('../Repair_project/images/image-2-1.png');
+    width: 736px;
+    height: 482px;
+    grid-area: 1/6/1;
+    margin-top: 52.68px;
+}
+
+.apartament-block {
+    width: 210px;
+    height: 75.4px;
+}
+
+.text-page-two-conditions-1 {
+    grid-area: 3/1/5/3;
+}
+
+.text-page-two-conditions-2 {
+    grid-area: 3/3/5/5;
+}
+
+.slider {
+    grid-area: 5/1/5/4;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 46.6px;
+}
+
+.slider-list> li {
+    display: inline;
+    color: #FFFFFF;
+    place-self: center;
+    margin: 0 10px;
+}
+
+.slider-mobil-l,.slider-mobil-r {
+    visibility: hidden;
+}
